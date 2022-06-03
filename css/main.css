@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+body {
+  margin: 0;
+  background: var(--VeryLightGray);
+  font-family: 'Poppins' !important;
+}
+
+main .container .hero {
+  margin: auto;
+  padding: 1em;
+  width: 400px;
+}
+
+main .container .hero h1 {
+  font-size: 1.55em;
+  margin-bottom: -3px;
+  color: var(--GrayishBlue);
+}
+
+main .container .hero span {
+  font-weight: 600;
+  font-size: 1.6em;
+}
+
+main .container .hero p {
+  width: 320px;
+  margin: auto;
+  color: var(--GrayishBlue);
+}
+
+main .container .supervisor, main .container .team, main .container .karma, main .container .calc {
+  padding: 1em 1.5em;
+  width: 320px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.33);
+          box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.33);
+}
+
+main .container .supervisor h3, main .container .team h3, main .container .karma h3, main .container .calc h3 {
+  font-weight: 600;
+}
+
+main .container .supervisor p, main .container .team p, main .container .karma p, main .container .calc p {
+  font-size: .85em;
+  font-weight: 400;
+  color: var(--GrayishBlue);
+}
+
+main .container .supervisor {
+  border-top: 3.5px solid var(--Cyan);
+}
+
+main .container .team {
+  border-top: 3.5px solid var(--Red);
+}
+
+main .container .karma {
+  border-top: 3.5px solid var(--Orange);
+}
+
+main .container .calc {
+  border-top: 3.5px solid var(--Blue);
+}
+
+@media (min-width: 900px) {
+  main .container .hero {
+    width: 600px;
+  }
+  main .container .hero p {
+    width: 550px;
+  }
+  main .container .row {
+    width: 1040px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
